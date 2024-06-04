@@ -3,7 +3,8 @@ set -e
 
 host="$1"
 shift
-cmd="$@"
+# shellcheck disable=SC2034
+cmd="$*"
 
 until mysqladmin ping -h "$host" --silent; do
   >&2 echo "MySQL is unavailable - sleeping"
