@@ -26,8 +26,8 @@
 
 3. Construir y ejecutar los contenedores Docker:
    ```sh
-    docker-compose up --build
-
+   docker-compose up -d
+   
 4. Rutas disponibles - Backend
    ```sh
    /auth/signup 
