@@ -11,7 +11,7 @@
 
    ```sh
    git clone https://github.com/Jkisner24/challengeLogin.git
-   cd challengeLogin
+   cd challenge-login
 
 
 2. Crear un archivo .env en el mismo directorio que docker-compose.yml con el siguiente contenido:
