@@ -1,4 +1,4 @@
-![image](https://github.com/Jkisner24/challenge-login/assets/96829210/58b9bf0f-f256-465d-afbd-76c56b906cee)# challengeLogin
+# challengeLogin
 
 ## Requisitos
 
