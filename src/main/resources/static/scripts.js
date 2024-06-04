@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const message = await response.text();
-        document.getElementById('signup-message').textContent = message;
+        alert(message);
+        signupForm.querySelectorAll('input[type="email"], input[type="password"]').forEach(input => input.value = '');
+        document.getElementById('signup-message').textContent = '';
     });
 
     loginForm.addEventListener('submit', async (event) => {
@@ -35,9 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (response.ok) {
             const data = await response.json();
             localStorage.setItem('token', data.token);
+            alert('Login successful!');
             document.getElementById('login-message').textContent = 'Login successful!';
             document.getElementById('login-message').style.color = 'green';
+            loginForm.querySelectorAll('input[type="email"], input[type="password"]').forEach(input => input.value = '');
         } else {
+            alert('Login failed')
             document.getElementById('login-message').textContent = 'Login failed!';
         }
     });
