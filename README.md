@@ -1,4 +1,4 @@
-# challengeLogin
+![image](https://github.com/Jkisner24/challenge-login/assets/96829210/58b9bf0f-f256-465d-afbd-76c56b906cee)# challengeLogin
 
 ## Requisitos
 
@@ -27,3 +27,16 @@
 3. Construir y ejecutar los contenedores Docker:
    ```sh
     docker-compose up --build
+
+4. Rutas disponibles - Backend
+   ```sh
+   /auth/signup 
+   /auth/login
+   *ambos metodos son de tipo post*
+
+5. Rutas disponibles - Frontend 
+   ```sh
+   src/main/resources/static/index.html -> Abrir Html con el navegador y se despliega el html.
+
+
+
