@@ -18,9 +18,35 @@ body {
     border-radius: 8px;
 }
 
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 2% 5%;
+  margin: 2% 5%;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
 h1, h2 {
     text-align: center;
     color: #333;
+    margin-bottom: 15%
+}
+
+p {
+    text-align: center;
 }
 
 form {
