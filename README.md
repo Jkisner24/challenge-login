@@ -16,8 +16,7 @@
 
 2. Crear un archivo .env en el mismo directorio que docker-compose.yml con el siguiente contenido:
    ```sh
-   SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/db_challenge? 
-   allowPublicKeyRetrieval=true
+   SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/db_challenge?allowPublicKeyRetrieval=true
    SPRING_DATASOURCE_USERNAME=root
    SPRING_DATASOURCE_PASSWORD=
    MYSQL_ROOT_PASSWORD=
@@ -37,6 +36,11 @@
 5. Rutas disponibles - Frontend 
    ```sh
    src/main/resources/static/index.html -> Abrir Html con el navegador y se despliega el html.
+   src/main/resources/static/sigup.html
+   src/main/resources/static/login.html
+   src/main/resources/static/home.html
+
+
 
 
 
