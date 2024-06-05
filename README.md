@@ -40,6 +40,10 @@
    src/main/resources/static/login.html
    src/main/resources/static/home.html
 
+6. Token - LocalStorage
+   ```sh
+   En el navegador/abrir consola/Application/Local Storage/Aca se deberia mostrar
+   
 
 
 
